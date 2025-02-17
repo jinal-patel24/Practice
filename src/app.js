@@ -13,10 +13,6 @@ app.use("/student", studentRouter)
 app.use("/category", categoryRouter)
 app.use("/product", productRouter)
 
-
 app.listen(process.env.PORT, () => {
        console.log(`Server is running on ${process.env.PORT}....`);      
 });
-
-
-
